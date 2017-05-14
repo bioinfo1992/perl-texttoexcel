@@ -1,6 +1,6 @@
 #!/usr/bin/perl;
-#use warnings;
-#use strict;
+use warnings;
+use strict;
 use Cwd;
 use Excel::Writer::XLSX;
 use File::Basename;
@@ -15,7 +15,7 @@ use Encode;
 
 #Main
 #example
-&excel_export('C:\Users\bio\Desktop\demo.txt', 'C:\Users\bio\Desktop');
+&excel_export('demo.txt', 'path');
 
 
 
